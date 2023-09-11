@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>dundun-nf</title>
 </head>
 <body>
-    <h1> Hello dundun is here </h1>
+    <main>
+        <!-- dundun know to comment-->
+        <h1> Dundun Is Here</h1>
+        <section>
+            <h2> Dundun knows about hierarchy</h2>
+            <p> Dundun now is knowing paragraph <a href="httsp://freecatphotoapp.com" target="_blank">see the cat</a> from the training</p>
+            <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg">
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="a duck here">    
+            </a>
+        </section>
+
+        <section>
+            <h2> Dundun knows about lists</h2>
+            <h3> Dundun gon' create a unordered list</h3>
+            <!-- the unordered list display with bullet point -->
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate">
+                <figcaption>Cats <em>love</em> lasagna</figcaption>
+            </figure>
+            <h3> dundun gon' create another unordered list</h3>
+            <!-- ordered list display with number -->
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field">
+                <figcaption>Cats <strong>hate</strong> other cats, but not really</figcaption>
+
+                <section>
+                    <h2>Cat Form</h2>
+                    <form action="https://freecatphotoapp.com/submit-photo-app">
+                        <!-- the name of label should be same in order of radio only could selected one only -->
+                        <fieldset>
+                            <legend>Is your cat an indoor or outdoor cat?</legend>
+                            <label><input checked id="indoor" name="indoor-outdoor" type="radio" value="indoor">Indoor</label>
+                            <label><input id="outdoor" name="indoor-outdoor" type="radio" value="outdoor">Outdoor</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>What's your cat's personality?</legend>
+                            <input checked value="loving" id="loving" type="checkbox" name="personality"><label for="loving">Loving</label>
+                            <input value="lazy" id="lazy" type="checkbox" name="personality"><label for="lazy">Lazy</label>
+                            <input value="energetic" id="energetic" type="checkbox" name="personality"><label for="energetic">Energetic</label>
+                        </fieldset>
+                        <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+                        <button type="submit">Submit</button>
+                    </form>
+                </section>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org </a></p>
+    </footer>
 </body>
 </html>
