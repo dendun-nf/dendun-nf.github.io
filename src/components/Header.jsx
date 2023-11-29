@@ -1,7 +1,7 @@
 const Header = () => {
 	return (
-		<header className="main-header">
-			<h1 className="header__title">Portofolio</h1>
+		<header className="container justify-center">
+			<h1 className="uppercase font-extrabold">Portofolio</h1>
 		</header>
 	);
 };
