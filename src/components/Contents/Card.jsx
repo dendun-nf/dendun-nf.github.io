@@ -7,7 +7,17 @@ import Typography from "@mui/material/Typography";
 export default function MediaCard({ imgUrl, title, description }) {
 	return (
 		<Card sx={{ maxWidth: 345 }}>
-			<CardMedia sx={{ height: 140 }} image={imgUrl} title={title} />
+			<CardMedia
+				sx={{
+					height: 140,
+					bgcolor: "grey",
+					":hover": {
+						cursor: "pointer",
+					},
+				}}
+				image={imgUrl}
+				title={title}
+			/>
 			<CardContent>
 				<Typography gutterBottom variant="h5" component="div">
 					{title}
