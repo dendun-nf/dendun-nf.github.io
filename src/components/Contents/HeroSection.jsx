@@ -20,11 +20,39 @@ export default function HeroSection() {
 							Based in Indonesia, Jakarta
 						</p>
 					</div>
-					<div className="container flex justify-center gap-2 p-4 text-teal-100">
-						<FontAwesomeIcon icon={faGithub} size="3x" />
-						<FontAwesomeIcon icon={faInstagram} size="3x" />
-						<FontAwesomeIcon icon={faLinkedin} size="3x" />
-						<FontAwesomeIcon icon={faFacebook} size="3x" />
+					<div className="container flex justify-center gap-2 p-4 text-teal-100 md:justify-start">
+						<a href="https://github.com" target="_blank" rel="noreferrer">
+							<FontAwesomeIcon
+								icon={faGithub}
+								size="3x"
+								className="hover:text-orange-200"
+							/>
+						</a>
+						<a
+							href="https://www.instagram.com"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<FontAwesomeIcon
+								icon={faInstagram}
+								size="3x"
+								className="hover:text-orange-200"
+							/>
+						</a>
+						<a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+							<FontAwesomeIcon
+								icon={faLinkedin}
+								size="3x"
+								className="hover:text-orange-200"
+							/>
+						</a>
+						<a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+							<FontAwesomeIcon
+								icon={faFacebook}
+								size="3x"
+								className="hover:text-orange-200"
+							/>
+						</a>
 					</div>
 				</div>
 			</div>
