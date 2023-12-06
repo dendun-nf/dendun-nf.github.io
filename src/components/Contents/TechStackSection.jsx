@@ -2,7 +2,10 @@ import MediaCard from "./Card";
 
 export default function TechStackSection() {
 	return (
-		<section className="grid grid-cols-auto gap-4 p-4 overflow-auto place-items-center bg-slate-100">
+		<section
+			className="grid grid-cols-auto gap-4 p-4 overflow-auto place-items-center bg-slate-100"
+			id="section"
+		>
 			<MediaCard
 				key={"card-1"}
 				imgUrl={"https://placehold.co/600x400/#64748B/FFF"}

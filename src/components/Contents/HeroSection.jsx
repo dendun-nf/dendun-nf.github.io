@@ -8,7 +8,7 @@ import {
 
 export default function HeroSection() {
 	return (
-		<section className="bg-slate-500 text-orange-500 h-screen">
+		<section className="bg-slate-500 text-orange-500 h-screen" id="hero">
 			<div className="flex flex-col justify-center items-center w-full h-full ">
 				<div className="flex flex-col flex-wrap justify-center items-center">
 					<div className="container p-1 text-center md:text-left">
