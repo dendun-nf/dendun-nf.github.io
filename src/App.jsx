@@ -1,15 +1,5 @@
-import Header from "./components/Header.jsx";
-import Content from "./components/Content.jsx";
-import Footer from "./components/Footer.jsx";
+import Navbar from "./components/navbar/Navbar";
 
-function App() {
-	return (
-		<>
-			<Header />
-			<Content />
-			<Footer />
-		</>
-	);
-}
+function App() {}
 
 export default App;
